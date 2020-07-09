@@ -36,6 +36,7 @@ if ($err) {
 
   foreach ($data_distrik as $key => $tiap_distrik) {
     echo "<option value='' 
+    id_distrik='". $tiap_distrik['city_id'] ."' 
     nama_provinsi='". $tiap_distrik['province'] ."' 
     nama_distrik='". $tiap_distrik['city_name'] ."' 
     tipe_distrik='". $tiap_distrik['type'] ."' 
